@@ -1,10 +1,10 @@
-# cloud9-deployment-service
+# cirrus-deployment-service
 
 
-# Cloud9 - Making the Web faster
+# Cirrus - Making the Web faster
 ## Architecture:
     There are 3 services I've made:
-    - upload service : upload the user's code to cloud9 system
+    - upload service : upload the user's code to Cirrus system
     - deployment service : build (html/css/js) and deploy 
     - request handler service 
 
@@ -40,7 +40,7 @@
 
     - We need to serve HTML/CSS/JS file and not directly React files is beacause Browser only understands Javascript/HTML/CSS.
 
-# cloud9-upload-service:
+# Cirrus-upload-service:
 
 
     
